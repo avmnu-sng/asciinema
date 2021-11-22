@@ -12,7 +12,7 @@ with open('README.md', encoding='utf8') as file:
     long_description = file.read()
 
 setup(
-    name='asciinema',
+    name='asciinema2',
     version=asciinema.__version__,
     packages=['asciinema', 'asciinema.commands', 'asciinema.asciicast'],
     license='GNU GPLv3',
